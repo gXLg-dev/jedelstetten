@@ -1,5 +1,6 @@
 {
   "ram": 100,
   "record": "beta.jedelstetten.com",
-  "start": "node --max-old-space-size=100 index.js {port}"
+  "start": "node --max-old-space-size=100 index.js {port}",
+  "setup": "npm ci"
 }
