@@ -1,0 +1,4 @@
+<h2 null-data="(q, r, p) => p.name"></h2>
+<div class="quote" null-data="(q, r, p) => p.quote"></div>
+<div null-attr="(q, r, p) => ({ 'class': 'text-columns' + (p.twoTextColumns ? ' two' : '') })" null-container="(q, r, p) => `people/${p.id}.html`"></div>
+<div class="links" null-list="(q, r, p) => p.links" null-container="#template/link.html"></div>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "natascha",
+    "name": "Natascha / Your Cozy Friends",
+    "quote": "Freunde, mit Liebe für Dich gemacht",
+    "images": [
+      { "file": "hedgehog.jpg", "alt": "Niedliches Igel-Stofftier", "top": "46%" },
+      { "file": "doll.jpg", "alt": "Kuschelige Kinderpuppe", "top": "35%" },
+      { "file": "bear.jpg", "alt": "Süßes Teddy-Bärchen im Marienkäfer-Anzug", "top": "42%" }
+    ],
+    "links": [
+      { "title": "Etsy Shop", "href": "https://www.etsy.com/shop/YourCozyFriends" },
+      { "title": "Instagram 1", "href": "https://www.instagram.com/your_cozy_friends" },
+      { "title": "Instagram 2", "href": "https://www.instagram.com/tosha.dolls" }
+    ]
+  },
+  {
+    "id": "dmitry",
+    "name": "Dmitry / gXLg",
+    "quote": "Ich erstelle Open-Source Projekte zum Wohle der Allgemeintheit",
+    "images": [
+      { "file": "photo.jpg", "alt": "Photo von Dmitry" }
+    ],
+    "links": [
+      { "title": "Webseite", "href": "https://gXLg.dev" },
+      { "title": "Email", "href": "mailto:gxlg@gmx.de" }
+    ]
+  }
+]

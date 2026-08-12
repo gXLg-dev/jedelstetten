@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#ff8f1f">
+
+  <title>Jedelstetten</title>
+  <meta property="og:title" content="Jedelstetten" />
+  <meta property="og:description" content="Irgendwo im Nirgendwo: Wo wenig ist, entsteht viel." />
+  <meta name="twitter:title" content="Jedelstetten" />
+  <meta name="twitter:description" content="Irgendwo im Nirgendwo: Wo wenig ist, entsteht viel." />
+
+  <link rel="icon" sizes="512x512" href="/static/heart.png">
+  <meta property="og:image" content="/static/heart.png" />
+  <meta property="og:image:width" content="64" />
+  <meta property="og:image:height" content="64" />
+  <meta name="twitter:image" content="/static/heart.png" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="cover">
+    <div class="cover-content">
+      <h1>Jedelstetten</h1>
+      <p>Irgendwo im Nirgendwo: Wo wenig ist, entsteht viel.</p>
+    </div>
+  </header>
+  <div class="container" null-list="() => require('people.json')" null-container="#template/person.html"></div>
+  <footer>
+    Gemacht mit <img src="/static/heart.png" style="height: 22px; position: relative; top: 4px;" alt="Liebe" title="Liebe">
+    <br>
+    Copyright gXLg.dev <span null-data="() => (new Date()).getFullYear()"></span>
+    <br>
+    Lizenzierung: <a href="https://github.com/gXLg-dev/jedelstetten" target="_blank">GitHub</a>
+  </footer>
+</body>
+</html>

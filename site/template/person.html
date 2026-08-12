@@ -1,0 +1,11 @@
+<section class="person" null-attr="(q, r, p) => ({ 'class': 'person' + (p.images.length == 1 ? ' layout-side' : '') })" null-container>
+  <script null-container>
+    return (q, r, p) => {
+      const l = p.images?.length ?? 0;
+      if (l > 3) {
+        throw new NullsScriptError(`Invalid amount of images provided for the template of "${p.name}": ${p.template.images}, needs to be in range [0; 3]`);
+      }
+      return "template/" + (l > 0 ? "with" : "without") + "-gallery.html";
+    }
+  </script>
+</section>

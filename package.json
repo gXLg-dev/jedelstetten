@@ -1,0 +1,23 @@
+{
+  "name": "jedelstetten",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/gXLg-dev/jedelstetten#readme",
+  "bugs": {
+    "url": "https://github.com/gXLg-dev/jedelstetten/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gXLg-dev/jedelstetten.git"
+  },
+  "license": "MIT",
+  "author": "gXLg",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nulls": "2.12.6"
+  }
+}
