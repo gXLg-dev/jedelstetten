@@ -14,7 +14,6 @@ const { nulls } = require("nulls");
     "forceHTTPS": PROD,
     "proxies": PROD ? 1 : 0,
     "domain": domain,
-    "redirects": { "/\*splat": req => "/" }
   });
 
   process.on("SIGINT", () => {
