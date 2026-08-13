@@ -14,6 +14,7 @@ const { nulls } = require("nulls");
     "forceHTTPS": PROD,
     "proxies": PROD ? 1 : 0,
     "domain": domain,
+    "postInit": app => app.get(/^\/(?!$).*/, (q, r) => r.redirect("/"))
   });
 
   process.on("SIGINT", () => {
