@@ -1,6 +1,6 @@
 {
   "ram": 100,
   "setup": ["git pull", "npm ci"],
-  "record": "beta.jedelstetten.com",
+  "record": "jedelstetten.com",
   "start": "node --max-old-space-size=100 index.js {port}"
 }

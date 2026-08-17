@@ -1,5 +1,5 @@
 const PROD = !!process.argv[2];
-const domain = "beta.jedelstetten.com";
+const domain = "jedelstetten.com";
 
 const { nulls } = require("nulls");
 
