@@ -1,6 +1,6 @@
 # Jedelstetten
 
-[jedelstetten.com](https://beta.jedelstetten.com)
+[jedelstetten.com](https://jedelstetten.com)
 
 # Licensing
 This project is published under the `MIT License`. For more details see the `LICENSE` file.
